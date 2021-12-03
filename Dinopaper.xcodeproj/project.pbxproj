@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9ACEBA275A51110006401E /* DinopaperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACEB9275A51110006401E /* DinopaperApp.swift */; };
+		EC9ACEBC275A51110006401E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACEBB275A51110006401E /* ContentView.swift */; };
+		EC9ACEBE275A51120006401E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9ACEBD275A51120006401E /* Assets.xcassets */; };
+		EC9ACEC1275A51120006401E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9ACEC0275A51120006401E /* Preview Assets.xcassets */; };
+		EC9ACECC275A51120006401E /* DinopaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACECB275A51120006401E /* DinopaperTests.swift */; };
+		EC9ACED6275A51120006401E /* DinopaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACED5275A51120006401E /* DinopaperUITests.swift */; };
+		EC9ACED8275A51120006401E /* DinopaperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACED7275A51120006401E /* DinopaperUITestsLaunchTests.swift */; };
+		EC9ACEE6275A51A50006401E /* WallpapperLib in Frameworks */ = {isa = PBXBuildFile; productRef = EC9ACEE5275A51A50006401E /* WallpapperLib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9ACEC8275A51120006401E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9ACEAE275A51110006401E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9ACEB5275A51110006401E;
+			remoteInfo = Dinopaper;
+		};
+		EC9ACED2275A51120006401E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9ACEAE275A51110006401E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9ACEB5275A51110006401E;
+			remoteInfo = Dinopaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC9ACEB6275A51110006401E /* Dinopaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinopaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9ACEB9275A51110006401E /* DinopaperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinopaperApp.swift; sourceTree = "<group>"; };
+		EC9ACEBB275A51110006401E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC9ACEBD275A51120006401E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9ACEC0275A51120006401E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC9ACEC2275A51120006401E /* Dinopaper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dinopaper.entitlements; sourceTree = "<group>"; };
+		EC9ACEC7275A51120006401E /* DinopaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinopaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9ACECB275A51120006401E /* DinopaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinopaperTests.swift; sourceTree = "<group>"; };
+		EC9ACED1275A51120006401E /* DinopaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinopaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9ACED5275A51120006401E /* DinopaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinopaperUITests.swift; sourceTree = "<group>"; };
+		EC9ACED7275A51120006401E /* DinopaperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinopaperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9ACEB3275A51110006401E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9ACEE6275A51A50006401E /* WallpapperLib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9ACEC4275A51120006401E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9ACECE275A51120006401E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9ACEAD275A51110006401E = {
+			isa = PBXGroup;
+			children = (
+				EC9ACEB8275A51110006401E /* Dinopaper */,
+				EC9ACECA275A51120006401E /* DinopaperTests */,
+				EC9ACED4275A51120006401E /* DinopaperUITests */,
+				EC9ACEB7275A51110006401E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9ACEB7275A51110006401E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ACEB6275A51110006401E /* Dinopaper.app */,
+				EC9ACEC7275A51120006401E /* DinopaperTests.xctest */,
+				EC9ACED1275A51120006401E /* DinopaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9ACEB8275A51110006401E /* Dinopaper */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ACEB9275A51110006401E /* DinopaperApp.swift */,
+				EC9ACEBB275A51110006401E /* ContentView.swift */,
+				EC9ACEBD275A51120006401E /* Assets.xcassets */,
+				EC9ACEC2275A51120006401E /* Dinopaper.entitlements */,
+				EC9ACEBF275A51120006401E /* Preview Content */,
+			);
+			path = Dinopaper;
+			sourceTree = "<group>";
+		};
+		EC9ACEBF275A51120006401E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ACEC0275A51120006401E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC9ACECA275A51120006401E /* DinopaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ACECB275A51120006401E /* DinopaperTests.swift */,
+			);
+			path = DinopaperTests;
+			sourceTree = "<group>";
+		};
+		EC9ACED4275A51120006401E /* DinopaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ACED5275A51120006401E /* DinopaperUITests.swift */,
+				EC9ACED7275A51120006401E /* DinopaperUITestsLaunchTests.swift */,
+			);
+			path = DinopaperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9ACEB5275A51110006401E /* Dinopaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9ACEDB275A51120006401E /* Build configuration list for PBXNativeTarget "Dinopaper" */;
+			buildPhases = (
+				EC9ACEB2275A51110006401E /* Sources */,
+				EC9ACEB3275A51110006401E /* Frameworks */,
+				EC9ACEB4275A51110006401E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dinopaper;
+			packageProductDependencies = (
+				EC9ACEE5275A51A50006401E /* WallpapperLib */,
+			);
+			productName = Dinopaper;
+			productReference = EC9ACEB6275A51110006401E /* Dinopaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9ACEC6275A51120006401E /* DinopaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9ACEDE275A51120006401E /* Build configuration list for PBXNativeTarget "DinopaperTests" */;
+			buildPhases = (
+				EC9ACEC3275A51120006401E /* Sources */,
+				EC9ACEC4275A51120006401E /* Frameworks */,
+				EC9ACEC5275A51120006401E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9ACEC9275A51120006401E /* PBXTargetDependency */,
+			);
+			name = DinopaperTests;
+			productName = DinopaperTests;
+			productReference = EC9ACEC7275A51120006401E /* DinopaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC9ACED0275A51120006401E /* DinopaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9ACEE1275A51120006401E /* Build configuration list for PBXNativeTarget "DinopaperUITests" */;
+			buildPhases = (
+				EC9ACECD275A51120006401E /* Sources */,
+				EC9ACECE275A51120006401E /* Frameworks */,
+				EC9ACECF275A51120006401E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9ACED3275A51120006401E /* PBXTargetDependency */,
+			);
+			name = DinopaperUITests;
+			productName = DinopaperUITests;
+			productReference = EC9ACED1275A51120006401E /* DinopaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9ACEAE275A51110006401E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EC9ACEB5275A51110006401E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					EC9ACEC6275A51120006401E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EC9ACEB5275A51110006401E;
+					};
+					EC9ACED0275A51120006401E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EC9ACEB5275A51110006401E;
+					};
+				};
+			};
+			buildConfigurationList = EC9ACEB1275A51110006401E /* Build configuration list for PBXProject "Dinopaper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9ACEAD275A51110006401E;
+			packageReferences = (
+				EC9ACEE4275A51A50006401E /* XCRemoteSwiftPackageReference "wallpapper" */,
+			);
+			productRefGroup = EC9ACEB7275A51110006401E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9ACEB5275A51110006401E /* Dinopaper */,
+				EC9ACEC6275A51120006401E /* DinopaperTests */,
+				EC9ACED0275A51120006401E /* DinopaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9ACEB4275A51110006401E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9ACEC1275A51120006401E /* Preview Assets.xcassets in Resources */,
+				EC9ACEBE275A51120006401E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9ACEC5275A51120006401E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9ACECF275A51120006401E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9ACEB2275A51110006401E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9ACEBC275A51110006401E /* ContentView.swift in Sources */,
+				EC9ACEBA275A51110006401E /* DinopaperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9ACEC3275A51120006401E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9ACECC275A51120006401E /* DinopaperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9ACECD275A51120006401E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9ACED6275A51120006401E /* DinopaperUITests.swift in Sources */,
+				EC9ACED8275A51120006401E /* DinopaperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9ACEC9275A51120006401E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9ACEB5275A51110006401E /* Dinopaper */;
+			targetProxy = EC9ACEC8275A51120006401E /* PBXContainerItemProxy */;
+		};
+		EC9ACED3275A51120006401E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9ACEB5275A51110006401E /* Dinopaper */;
+			targetProxy = EC9ACED2275A51120006401E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC9ACED9275A51120006401E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC9ACEDA275A51120006401E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EC9ACEDC275A51120006401E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dinopaper/Dinopaper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dinopaper/Preview Content\"";
+				DEVELOPMENT_TEAM = 6MTC9ES4SK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LASER-Yi.Dinopaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EC9ACEDD275A51120006401E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dinopaper/Dinopaper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dinopaper/Preview Content\"";
+				DEVELOPMENT_TEAM = 6MTC9ES4SK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LASER-Yi.Dinopaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EC9ACEDF275A51120006401E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MTC9ES4SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LASER-Yi.DinopaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dinopaper.app/Contents/MacOS/Dinopaper";
+			};
+			name = Debug;
+		};
+		EC9ACEE0275A51120006401E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MTC9ES4SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LASER-Yi.DinopaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dinopaper.app/Contents/MacOS/Dinopaper";
+			};
+			name = Release;
+		};
+		EC9ACEE2275A51120006401E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MTC9ES4SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LASER-Yi.DinopaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Dinopaper;
+			};
+			name = Debug;
+		};
+		EC9ACEE3275A51120006401E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MTC9ES4SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LASER-Yi.DinopaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Dinopaper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9ACEB1275A51110006401E /* Build configuration list for PBXProject "Dinopaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9ACED9275A51120006401E /* Debug */,
+				EC9ACEDA275A51120006401E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9ACEDB275A51120006401E /* Build configuration list for PBXNativeTarget "Dinopaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9ACEDC275A51120006401E /* Debug */,
+				EC9ACEDD275A51120006401E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9ACEDE275A51120006401E /* Build configuration list for PBXNativeTarget "DinopaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9ACEDF275A51120006401E /* Debug */,
+				EC9ACEE0275A51120006401E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9ACEE1275A51120006401E /* Build configuration list for PBXNativeTarget "DinopaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9ACEE2275A51120006401E /* Debug */,
+				EC9ACEE3275A51120006401E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC9ACEE4275A51A50006401E /* XCRemoteSwiftPackageReference "wallpapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:mczachurski/wallpapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC9ACEE5275A51A50006401E /* WallpapperLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC9ACEE4275A51A50006401E /* XCRemoteSwiftPackageReference "wallpapper" */;
+			productName = WallpapperLib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC9ACEAE275A51110006401E /* Project object */;
+}

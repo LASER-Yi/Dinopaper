@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "wallpapper",
+        "repositoryURL": "git@github.com:mczachurski/wallpapper.git",
+        "state": {
+          "branch": null,
+          "revision": "bffdeb86657e9da3f6de48d7cb1cc2494725d8ca",
+          "version": "1.7.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
