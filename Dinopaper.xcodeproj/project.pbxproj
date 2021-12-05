@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC69E8ED275B39C200C57337 /* DroppableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69E8EC275B39C200C57337 /* DroppableImage.swift */; };
+		EC69E8EF275C6DBB00C57337 /* AppearanceSidebarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69E8EE275C6DBB00C57337 /* AppearanceSidebarItem.swift */; };
+		EC69E8F3275C717000C57337 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69E8F2275C717000C57337 /* Protocols.swift */; };
+		EC69E8F5275C8A3E00C57337 /* AppearanceCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69E8F4275C8A3E00C57337 /* AppearanceCreator.swift */; };
+		EC69E8F8275C9E6100C57337 /* CreateImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69E8F7275C9E6100C57337 /* CreateImageButton.swift */; };
 		EC9ACEBA275A51110006401E /* DinopaperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACEB9275A51110006401E /* DinopaperApp.swift */; };
 		EC9ACEBC275A51110006401E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACEBB275A51110006401E /* ContentView.swift */; };
 		EC9ACEBE275A51120006401E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9ACEBD275A51120006401E /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 		EC9ACED6275A51120006401E /* DinopaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACED5275A51120006401E /* DinopaperUITests.swift */; };
 		EC9ACED8275A51120006401E /* DinopaperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACED7275A51120006401E /* DinopaperUITestsLaunchTests.swift */; };
 		EC9ACEE6275A51A50006401E /* WallpapperLib in Frameworks */ = {isa = PBXBuildFile; productRef = EC9ACEE5275A51A50006401E /* WallpapperLib */; };
+		EC9ACEE9275A65A30006401E /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACEE8275A65A30006401E /* Sidebar.swift */; };
+		EC9ACEEB275A68250006401E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACEEA275A68250006401E /* Constants.swift */; };
+		EC9ACEF1275A72E20006401E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACEF0275A72E20006401E /* Models.swift */; };
+		EC9ACEF4275A75000006401E /* PreviewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACEF3275A75000006401E /* PreviewHelper.swift */; };
+		EC9ACEF6275A80F00006401E /* ImageDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9ACEF5275A80F00006401E /* ImageDropDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC69E8EC275B39C200C57337 /* DroppableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppableImage.swift; sourceTree = "<group>"; };
+		EC69E8EE275C6DBB00C57337 /* AppearanceSidebarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSidebarItem.swift; sourceTree = "<group>"; };
+		EC69E8F2275C717000C57337 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		EC69E8F4275C8A3E00C57337 /* AppearanceCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceCreator.swift; sourceTree = "<group>"; };
+		EC69E8F7275C9E6100C57337 /* CreateImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateImageButton.swift; sourceTree = "<group>"; };
 		EC9ACEB6275A51110006401E /* Dinopaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinopaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9ACEB9275A51110006401E /* DinopaperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinopaperApp.swift; sourceTree = "<group>"; };
 		EC9ACEBB275A51110006401E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +61,11 @@
 		EC9ACED1275A51120006401E /* DinopaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinopaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9ACED5275A51120006401E /* DinopaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinopaperUITests.swift; sourceTree = "<group>"; };
 		EC9ACED7275A51120006401E /* DinopaperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinopaperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC9ACEE8275A65A30006401E /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		EC9ACEEA275A68250006401E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EC9ACEF0275A72E20006401E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		EC9ACEF3275A75000006401E /* PreviewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewHelper.swift; sourceTree = "<group>"; };
+		EC9ACEF5275A80F00006401E /* ImageDropDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDropDelegate.swift; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC69E8F6275C8EDF00C57337 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ACEBD275A51120006401E /* Assets.xcassets */,
+				EC9ACEC0275A51120006401E /* Preview Assets.xcassets */,
+				EC9ACEC2275A51120006401E /* Dinopaper.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		EC9ACEAD275A51110006401E = {
 			isa = PBXGroup;
 			children = (
@@ -98,20 +128,13 @@
 			isa = PBXGroup;
 			children = (
 				EC9ACEB9275A51110006401E /* DinopaperApp.swift */,
-				EC9ACEBB275A51110006401E /* ContentView.swift */,
-				EC9ACEBD275A51120006401E /* Assets.xcassets */,
-				EC9ACEC2275A51120006401E /* Dinopaper.entitlements */,
-				EC9ACEBF275A51120006401E /* Preview Content */,
+				EC9ACEF2275A74F60006401E /* Helpers */,
+				EC9ACEEE275A71320006401E /* Views */,
+				EC69E8F6275C8EDF00C57337 /* Resources */,
+				EC9ACEE7275A65970006401E /* Components */,
+				EC9ACEEF275A72C60006401E /* Models */,
 			);
 			path = Dinopaper;
-			sourceTree = "<group>";
-		};
-		EC9ACEBF275A51120006401E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				EC9ACEC0275A51120006401E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		EC9ACECA275A51120006401E /* DinopaperTests */ = {
@@ -129,6 +152,45 @@
 				EC9ACED7275A51120006401E /* DinopaperUITestsLaunchTests.swift */,
 			);
 			path = DinopaperUITests;
+			sourceTree = "<group>";
+		};
+		EC9ACEE7275A65970006401E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EC69E8EC275B39C200C57337 /* DroppableImage.swift */,
+				EC69E8EE275C6DBB00C57337 /* AppearanceSidebarItem.swift */,
+				EC69E8F7275C9E6100C57337 /* CreateImageButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EC9ACEEE275A71320006401E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ACEBB275A51110006401E /* ContentView.swift */,
+				EC9ACEE8275A65A30006401E /* Sidebar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC9ACEEF275A72C60006401E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ACEEA275A68250006401E /* Constants.swift */,
+				EC9ACEF0275A72E20006401E /* Models.swift */,
+				EC69E8F2275C717000C57337 /* Protocols.swift */,
+				EC69E8F4275C8A3E00C57337 /* AppearanceCreator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC9ACEF2275A74F60006401E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC9ACEF3275A75000006401E /* PreviewHelper.swift */,
+				EC9ACEF5275A80F00006401E /* ImageDropDelegate.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +329,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC69E8ED275B39C200C57337 /* DroppableImage.swift in Sources */,
+				EC9ACEF1275A72E20006401E /* Models.swift in Sources */,
+				EC69E8F3275C717000C57337 /* Protocols.swift in Sources */,
 				EC9ACEBC275A51110006401E /* ContentView.swift in Sources */,
+				EC9ACEE9275A65A30006401E /* Sidebar.swift in Sources */,
+				EC69E8EF275C6DBB00C57337 /* AppearanceSidebarItem.swift in Sources */,
 				EC9ACEBA275A51110006401E /* DinopaperApp.swift in Sources */,
+				EC9ACEF6275A80F00006401E /* ImageDropDelegate.swift in Sources */,
+				EC69E8F8275C9E6100C57337 /* CreateImageButton.swift in Sources */,
+				EC9ACEEB275A68250006401E /* Constants.swift in Sources */,
+				EC9ACEF4275A75000006401E /* PreviewHelper.swift in Sources */,
+				EC69E8F5275C8A3E00C57337 /* AppearanceCreator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +497,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Dinopaper/Dinopaper.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Dinopaper/Resources/Dinopaper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Dinopaper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Dinopaper/Resources/Preview\\ Assets.xcassets";
 				DEVELOPMENT_TEAM = 6MTC9ES4SK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -452,11 +524,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Dinopaper/Dinopaper.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Dinopaper/Resources/Dinopaper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Dinopaper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Dinopaper/Resources/Preview\\ Assets.xcassets";
 				DEVELOPMENT_TEAM = 6MTC9ES4SK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;

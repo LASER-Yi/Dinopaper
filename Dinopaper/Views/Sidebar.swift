@@ -9,17 +9,28 @@ import SwiftUI
 
 struct Sidebar: View {
     
-    @State var images: [ImageInfo] = []
+    @EnvironmentObject var instance: InstanceData
     
     var body: some View {
-        LazyVStack {
-            if (images.count == 0) {
-                Text("Drop Images to Start")
-                    .padding()
-                    .lineLimit(1)
-            } else {
-                List(images) { img in
-                    
+        List {
+            switch instance.mode {
+            case .Appearance:
+                AppearanceSidebarItem()
+            default:
+                Text("[TODO] Support this mode")
+            }
+        }
+        .toolbar {
+            ToolbarItem {
+                Menu {
+                    Picker("Mode", selection: self.$instance.mode) {
+                        ForEach(CreateMode.allCases) { mode in
+                            Text(mode.rawValue)
+                        }
+                    }
+                    .pickerStyle(.inline)
+                } label: {
+                    Label(instance.mode.rawValue, systemImage: instance.mode.imageName)
                 }
             }
         }
@@ -29,5 +40,7 @@ struct Sidebar: View {
 struct Sidebar_Previews: PreviewProvider {
     static var previews: some View {
         Sidebar()
+            .previewed()
+            .frame(width: 120, height: 240)
     }
 }

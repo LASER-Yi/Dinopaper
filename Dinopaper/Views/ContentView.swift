@@ -12,24 +12,13 @@ struct ContentView: View {
     @EnvironmentObject var instance: InstanceData
     
     var body: some View {
-        
         NavigationView {
             Sidebar()
             
-            // TODO: Change Mode
-            CreateView()
+            Text("Content View")
+
         }
         .navigationTitle("Dinopaper")
-        .toolbar {
-            ToolbarItem(placement: .primaryAction) {
-                Button {
-                    // Create images
-                } label: {
-                    Image(systemName: "play.fill")
-                }
-                .disabled(true)
-            }
-        }
     }
 }
 

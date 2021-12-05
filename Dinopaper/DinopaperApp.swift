@@ -12,6 +12,7 @@ struct DinopaperApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(InstanceData())
         }
     }
 }

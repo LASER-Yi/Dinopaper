@@ -6,22 +6,27 @@
 //
 
 import SwiftUI
-import UniformTypeIdentifiers
 
 struct DroppableImage: View {
     
     @State var isTargeting = false
-    @State var images: [NSImage] = []
+    @Binding var image: NSImage?
+    
+    init(image: Binding<NSImage?> = .constant(nil)) {
+        self._image = image
+    }
     
     var delegate: DropDelegate {
         get {
-            return ImageDropDelegate(images: self.$images, isTargeting: self.$isTargeting)
+            return ImageDropDelegate(self.$isTargeting) { images in
+                self.image = images.first
+            }
         }
     }
     
     var body: some View {
         VStack(alignment: .center) {
-            if let img = images.first {
+            if let img = image {
                 Image(nsImage: img)
                     .resizable()
                     .scaledToFit()
@@ -40,5 +45,6 @@ struct DroppableImage: View {
 struct DroppableArea_Previews: PreviewProvider {
     static var previews: some View {
         DroppableImage()
+            .padding()
     }
 }
